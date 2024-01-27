@@ -15,6 +15,9 @@ router.post(
       },
       description:'Sunflower',
       payment_method_types: ['card'],
+      automatic_payment_methods: {
+        enabled: true,
+      },
     });
     res.status(200).json({
       success: true,
