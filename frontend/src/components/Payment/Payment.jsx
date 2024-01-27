@@ -36,10 +36,12 @@ const Payment = () => {
           {
             description: "Sunflower",
             amount: {
-              currency_code: "inr",
-              description: "Sunflower",
+              currency_code: "usd",
               value: orderData?.totalPrice,
+             
             },
+            automatic_payment_methods: {
+              enabled: true,},
           },
         ],
         // not needed if a shipping address is actually needed
