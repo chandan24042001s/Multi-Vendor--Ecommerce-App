@@ -2,7 +2,10 @@ import React from "react";
 import {
   AiFillFacebook,
   AiFillInstagram,
+  AiFillLinkedin,
+  AiFillProfile,
   AiFillYoutube,
+  AiOutlineGithub,
   AiOutlineTwitter,
 } from "react-icons/ai";
 import { Link } from "react-router-dom";
@@ -44,19 +47,16 @@ const Footer = () => {
           <br />
           <p>The home and elements needeed to create beatiful products.</p>
           <div className="flex items-center mt-[15px]">
-            <AiFillFacebook size={25} className="cursor-pointer" />
-            <AiOutlineTwitter
+            <AiFillLinkedin size={25} className="cursor-pointer" />
+            <AiOutlineGithub
               size={25}
               style={{ marginLeft: "15px", cursor: "pointer" }}
             />
-            <AiFillInstagram
+            <AiFillProfile
               size={25}
               style={{ marginLeft: "15px", cursor: "pointer" }}
             />
-            <AiFillYoutube
-              size={25}
-              style={{ marginLeft: "15px", cursor: "pointer" }}
-            />
+          
           </div>
         </ul>
 
@@ -110,8 +110,8 @@ const Footer = () => {
         className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10
          text-center pt-2 text-gray-400 text-sm pb-8"
       >
-        <span>© 2020 Becodemy. All rights reserved.</span>
-        <span>Terms · Privacy Policy</span>
+        <span>© No CopyRight Issues | @chandan |</span>
+        <span>Terms · Feel Free to Learn by cloning ideas & Knowledge</span>
         <div className="sm:block flex items-center justify-center w-full">
           <img
             src="https://hamart-shop.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffooter-payment.a37c49ac.png&w=640&q=75"
