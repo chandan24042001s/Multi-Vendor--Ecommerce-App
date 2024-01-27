@@ -13,7 +13,8 @@ router.post(
       metadata: {
         company: "Chandan",
       },
-      description:'Sunflower'
+      description:'Sunflower',
+      payment_method_types: ['card'],
     });
     res.status(200).json({
       success: true,
