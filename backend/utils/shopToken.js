@@ -16,7 +16,7 @@ const sendShopToken = (user, statusCode, res) => {
     user,
     token,
   });
-  res.cookie("seller_token",token,options);
+  // res.cookie("seller_token",token,options);
 };
 
 module.exports = sendShopToken;

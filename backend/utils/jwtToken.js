@@ -16,7 +16,7 @@ const sendToken = (user, statusCode, res) => {
     user,
     token,
   });
-  res.cookie("token",token,options);
+  // res.cookie("token",token,options);
 };
 
 module.exports = sendToken;
